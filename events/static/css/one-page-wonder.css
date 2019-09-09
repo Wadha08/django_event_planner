@@ -152,3 +152,7 @@ header.masthead .bg-circle-4 {
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
+.create_form {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }

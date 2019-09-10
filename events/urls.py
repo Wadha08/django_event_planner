@@ -1,5 +1,9 @@
 from django.urls import path
 from events import views
+from django.conf import settings
+
+
+app_name='events'
 
 urlpatterns = [
 	path('home/', views.home, name='home'),
@@ -16,6 +20,9 @@ urlpatterns = [
     path('signup/', views.Signup.as_view(), name='signup'),
     path('login/', views.Login.as_view(), name='login'),
     path('logout/', views.Logout.as_view(), name='logout'),
+
+
+   
 
 
 ]

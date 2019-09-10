@@ -20,7 +20,7 @@
     {%endif %}
   </div>
 </div>
-
+ {% if request.user == event.owner %}
 <table class="table">
   <thead>
 
@@ -39,4 +39,5 @@
   
   </tbody>
 </table>
+{%endif %}
 {% endblock content %}
